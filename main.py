@@ -64,14 +64,10 @@ async def inline_handlers(_, event: InlineQuery):
                 description="You Can Search All Bots Available On TeleGram.",
                 thumb_url="https://telegra.ph/file/cb4099b549491a622c481.jpg", 
                 input_message_content=InputTextMessageContent(
-                    message_text="A dream does not become reality through magic; it takes sweat, determination, and hard work."\n
-
-                                  "<a>@KGN_MOVIES || @KGN_BOTS</a>"\n
-
-                                  "<a>👥 BotChat : @KGN_MOVIE </a>"\n
-
-
-                                  "<a> Follow Our Bot Updates Channel : @KGN_BOTS_SUPPORT</a>",\n
+                    message_text="A dream does'nt become reality through magic;it takes sweat,determination, and hard work."\n
+                                 "<a>@KGN_MOVIES || @KGN_BOTS</a>"\n
+                                 "<a>👥 BotChat : @KGN_MOVIE </a>"\n
+                                 "<a> Follow Our Bot Updates Channel : @KGN_BOTS_SUPPORT</a>",\n
                     disable_web_page_preview=True
                 ),
                 reply_markup=InlineKeyboardMarkup([
