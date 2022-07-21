@@ -66,16 +66,12 @@ async def inline_handlers(_, event: InlineQuery):
                 input_message_content=InputTextMessageContent(
                     message_text="A dream does not become reality through magic; it takes sweat, determination, and hard work."\n
 
-                                  "<a>@TheTeleRoid || @Space_X_Bots</a>"\n
+                                  "<a>@KGN_MOVIES || @KGN_BOTS</a>"\n
 
-                                  "<a>🔴 YouTube Channel :</a>"\n
-
-                                  "<a>https://youtube.com/channel/UCeAteLGyraSil9pErMFTZAg </a>"\n
-
-                                  "<a>👥 BotChat : @TeleRoid14 </a>"\n
+                                  "<a>👥 BotChat : @KGN_MOVIE </a>"\n
 
 
-                                  "<a> Follow Our Bot Updates Channel : @TeleRoidGroup</a>",\n
+                                  "<a> Follow Our Bot Updates Channel : @KGN_BOTS_SUPPORT</a>",\n
                     disable_web_page_preview=True
                 ),
                 reply_markup=InlineKeyboardMarkup([
